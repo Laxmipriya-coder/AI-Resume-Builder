@@ -23,7 +23,7 @@ An AI-powered Resume Builder web application developed using the MERN stack. Use
 - Express.js
 
 ### Database
-- PostgresQL
+- PostgreSQL
 
 ## Project Structure
 
