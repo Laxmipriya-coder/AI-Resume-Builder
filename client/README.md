@@ -1,15 +1,19 @@
 # AI Resume Builder
 
-An AI-powered Resume Builder web application developed using the MERN stack. Users can create, edit, and manage professional resumes with an interactive and responsive interface.
+An AI-powered Resume Builder web application where users can create, edit, preview, and download professional resumes through an interactive and responsive interface.
 
 ## Features
 
-- User Authentication
-- AI Resume Generation
-- Resume Editing and Preview
+- User Authentication & Authorization
+- AI-based Resume Generation
+- Resume Editing and Live Preview
+- Download Resume as PDF
+- Multiple Resume Templates
+- AI-based Skill Suggestions
 - Responsive Design
 - Backend API Integration
 - File Upload Support
+- Dark Mode Support
 
 ## Tech Stack
 
@@ -23,7 +27,7 @@ An AI-powered Resume Builder web application developed using the MERN stack. Use
 - Express.js
 
 ### Database
-- PostgresQL
+- PostgreSQL
 
 ## Project Structure
 
@@ -63,16 +67,9 @@ npm start
 Create a `.env` file inside the `server` folder and add:
 
 ```env
-MONGO_URI=your_mongodb_connection
+DATABASE_URL=your_postgresql_connection
 JWT_SECRET=your_secret_key
 ```
-
-## Future Improvements
-
-- Resume PDF Download
-- Multiple Resume Templates
-- AI-based Suggestions
-- Dark Mode
 
 ## Author
 
